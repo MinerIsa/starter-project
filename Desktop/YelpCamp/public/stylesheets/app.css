@@ -1,0 +1,28 @@
+#cluster-map {
+    width: 100%;
+    height: 500px;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+}
+
+.card-index {
+    padding: 15px;
+    /* JUST TO LOOK COOL */
+    border: 1px solid #eee;
+    /* JUST TO LOOK COOL */
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+    transition: all .25s ease-in-out;
+    border-radius: 8px;
+}
+
+.card-index:hover {
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -0.1px, 0px);
+}
+
+#index-body {
+    background-color: #fbfbfd;
+}
